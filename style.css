@@ -1,44 +1,21 @@
-/* css/style.css */
+/* style.css */
 body {
-    font-family: Arial, sans-serif;
+    background-color: blue;   /* This makes all pages blue */
+    color: white;             /* Optional: text color so it’s readable */
+    font-family: Arial, sans-serif; /* Optional: nicer font */
     margin: 0;
     padding: 0;
-    /* Gradient background */
-    background: linear-gradient(to right, #4facfe, #00f2fe);
-    color: #fff;
-    text-align: center;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
-
-/* Headings */
-h1 {
-    font-size: 3rem;
-    margin-bottom: 20px;
+nav {
+    background-color: #004080; /* Darker blue for nav bar */
+    padding: 10px;
 }
-
-/* Paragraphs */
-p {
-    font-size: 1.5rem;
+nav a {
+    color: rgba(35, 6, 11, 0.632);
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
 }
-
-/* Button styling for future interactivity */
-button {
-    padding: 10px 20px;
-    font-size: 1rem;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    background-color: #fff;
-    color: #4facfe;
-    transition: all 0.3s ease;
+nav a:hover {
+    text-decoration: underline;
 }
-
-button:hover {
-    background-color: #00f2fe;
-    color: #3e17cb;
-}
-
